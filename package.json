@@ -1,0 +1,27 @@
+{
+  "name": "keystate",
+  "version": "0.0.0",
+  "description": "Lightweight key state detection library",
+  "main": "keys.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/code-curve/keys.git"
+  },
+  "keywords": [
+    "key",
+    "state",
+    "keyboard"
+  ],
+  "author": "Dan Prince",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/code-curve/keys/issues"
+  },
+  "homepage": "https://github.com/code-curve/keys"
+}
