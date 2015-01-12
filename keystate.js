@@ -1,6 +1,6 @@
-(function() {
-  var states, keyMap;  
-  
+(function(window) {
+  var states, keyMap;
+
   states = {};
   keyMap = {
     8: 'backspace',
@@ -19,16 +19,13 @@
     46: 'delete'
   };
 
-  function changeState(state) {
-    return function(e) {
-      var mapped;
-      mapped = keyMap[e.keyCode] || String.fromCharCode(e.keyCode);
-      states[mapped.toLowerCase()] = state;
-    }
+  function changeState(state, e) {
+    var mapped = keyMap[e.keyCode] || String.fromCharCode(e.keyCode);
+    states[mapped.toLowerCase()] = state;
   }
 
-  window.addEventListener('keydown', changeState(true));
-  window.addEventListener('keyup', changeState(false));
-  
+  window.addEventListener('keydown', changeState.bind(this, true));
+  window.addEventListener('keyup', changeState.bind(this, false));
+
   window.keys = states;
-})();
+})(this);
