@@ -1,10 +1,10 @@
 {
   "name": "keystate",
-  "main": "keys.js",
+  "main": "keystate.js",
   "version": "0.0.0",
-  "homepage": "https://github.com/code-curve/keys",
+  "homepage": "https://github.com/danprince/keystate",
   "authors": [
-    "Dan Prince <dan@codecurve.net>"
+    "Dan Prince <danielprince@hotmail.co.uk>"
   ],
   "description": "Lightweight key state detection library",
   "keywords": [
