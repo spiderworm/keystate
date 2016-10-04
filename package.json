@@ -1,21 +1,21 @@
 {
-  "name": "keystate",
-  "version": "0.0.0",
-  "description": "Lightweight key state detection library",
+  "name": "keystate-fresh",
+  "version": "0.0.1",
+  "description": "Fresh version of the lightweight key state detection library",
   "main": "keystate.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/danprince/keystate.git"
+    "url": "git://github.com/spiderworm/keystate.git"
   },
   "keywords": [
     "key",
     "state",
     "keyboard"
   ],
-  "author": "Dan Prince",
+  "author": "David Millet",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/danprince/keystate/issues"
+    "url": "https://github.com/spiderworm/keystate/issues"
   },
-  "homepage": "https://github.com/danprince/keystate"
+  "homepage": "https://github.com/spiderworm/keystate"
 }
